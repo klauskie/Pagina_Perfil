@@ -2,107 +2,212 @@
 <html>
    <head>
       <title>Perfil: Klaus Kientzle</title>
+
+      <style>
+      body {
+         background-color:#e0ebeb;
+      }
+
+      #head {
+         background-color: #0086b3;
+         display:block;
+         padding:20px;
+      }
+
+      #contenedor {
+         max-width:1020px;
+         margin:0 auto;
+         background-color: #e6f2ff;
+      }
+
+      section {
+         background-color:#ffffff;
+         border-radius:15px 50px;
+         padding:10px 0 20px;
+         margin-left: 10px;
+         margin-right: 10px;
+      }
+
+      li {
+         padding: 5px 0;
+         font-family: sans-serif;
+      }
+
+      #divTabla {
+         width:500px;
+         text-align:center;
+         float:right;
+         background-color:#ffffff;
+         border-radius:50px 15px;
+         padding:10px 0 20px;
+         margin-right: 10px;
+      }
+
+      h1 {
+         margin: 0 2% 10px;
+         padding-top:2%;
+         font-family:arial;
+         color:#0099cc;
+      }
+
+      table {
+         font-family: arial, sans-serif;
+         border-collapse: collapse;
+      }
+
+      th{
+         padding: 8px;
+         border: 1px solid #dddddd;
+      }
+
+      .tdClass1 {
+         padding: 8px;
+         border: 1px solid #dddddd;
+      }
+
+      .tdClass2 {
+         padding: 8px;
+      }
+
+      .trClass {
+         background-color: #dddddd;
+      }
+
+      a {
+         text-decoration:none;
+      }
+
+      h2, p {
+         padding: 0 0 0 10px;
+         font-family: sans-serif;
+      }
+
+      .filler {
+         padding:20px 0 50px;
+         display:block;
+      }
+
+      .filler2 {
+         padding:40px 0;
+         display:block;
+      }
+
+      #fillerS {
+         padding:20px 0;
+         display:block;
+      }
+
+      #divImg {
+         width:500px;
+         padding-left: 200px;
+      }
+
+      img {
+         border: 10px solid #ffffff;
+         border-radius: 50%;
+      }
+
+      </style>
    </head>
 
-   <body style="background-color:#e0ebeb">
-      <div style="background-color: #0086b3; display:block; padding:20px;">
+   <body>
+      <div id="head">
       </div>
 
       <!--contenedor-->
-      <div style="max-width:1020px; margin:0 auto;">
+      <div id="contenedor">
 <!--filler-->
-         <div style="padding:40px 0; display:block;">
+         <div class="filler2">
 
          </div>
 
 
 <!--abajo tabla-->
-         <div align="center" style="width:500px; text-align:center; float:right; background-color:#ffffff; border-radius:50px 15px; padding:10px 0 20px;">
-            <h1 style="margin: 0 2% 10px; padding-top:2%; font-family:arial; color:#0099cc;">Klaus Kientzle</h1>
-            <table align="center" style="font-family: arial, sans-serif; border-collapse: collapse; ">
+         <div align="center" id="divTabla">
+            <h1>Klaus Kientzle</h1>
+            <table align="center">
                <tr>
-                  <th style="padding: 8px; border: 1px solid #dddddd;">
+                  <th>
                      Información:
                   </th>
                </tr>
-               <tr style="background-color: #dddddd;">
-                  <td style="padding: 8px; border: 1px solid #dddddd;">
+               <tr class="trClass">
+                  <td class="tdClass1">
                      Edad:
                   </td>
-                  <td style="padding: 8px;">
+                  <td class="tdClass2">
                      18 años.
                   </td>
                </tr>
                <tr>
-                  <td style="padding: 8px; border: 1px solid #dddddd;">
+                  <td class="tdClass1">
                      Vive:
                   </td>
-                  <td style="padding: 8px;">
+                  <td class="tdClass2">
                      Chihuahua, Chih.
                   </td>
                </tr>
-               <tr style="background-color: #dddddd;">
-                  <td style="padding: 8px; border: 1px solid #dddddd;">
+               <tr class="trClass">
+                  <td class="tdClass1">
                      Red Social:
                   </td>
-                  <td style="padding: 8px;">
-                     <a href="#" style="text-decoration:none" target="_blank">Facebook</a>
+                  <td class="tdClass2">
+                     <a href="#" target="_blank">Facebook</a>
                   </td>
                </tr>
             </table>
          </div>
 
 <!--imagen-->
-         <div align="left" style="width:500px; padding-left: 200px;">
-            <img src="http://i0.kym-cdn.com/entries/icons/original/000/019/749/catroomguardian.JPG" width="250" height="250"
-            style="border: 10px solid #ffffff; border-radius: 50%;"/>
+         <div align="left" id="divImg">
+            <img src="http://i0.kym-cdn.com/entries/icons/original/000/019/749/catroomguardian.JPG" width="250" height="250"/>
          </div>
 
 <!--filler-->
-         <div style="padding:40px 0; display:block;">
+         <div class="filler2">
 
          </div>
 
 <!--info1-->
-         <section style="background-color:#ffffff; border-radius:15px 50px; padding:10px 0 20px;">
-            <h2 style="padding: 0 0 0 10px;">Educación</h2>
-            <p style="padding: 0 0 0 10px;">
+         <section>
+            <h2>Educación</h2>
+            <p>
                Estudiante de la carrerea de <span style="font-weight:bold;">Ingenieria en Tecnologias Computacionales</span></br> en el <span style="font-weight:bold;">Tecnologico de Monterrey.</span>
             </p>
-            <p style="padding: 0 0 0 10px;">
+            <p>
                Egresado de la preparatoria del Tecnologico de Monterrey.
             </p>
          </section>
 <!--filler-->
-         <div style="padding:20px 0; display:block;">
+         <div id="fillerS">
 
          </div>
 <!--info2-->
-         <section style="background-color:#ffffff; border-radius:15px 50px; padding:10px 0 20px;">
-            <h2 style="padding: 0 0 0 10px;">Gustos Personales</h2>
+         <section>
+            <h2>Gustos Personales</h2>
             <ul>
-               <li style="padding: 5px 0;">
-                  Video Juegos (Zelda, Mario)
+               <li>
+                  Nintendo.
                </li>
                <li>
-                  Escuchar musica punk
+                  Escuchar musica (punk)
                </li>
-               <li style="padding: 5px 0;">
+               <li>
                   Salir con amigos.
                </li>
-               <li style="padding: 5px 0;">
-                  Hacer cosas espontaneas.
+               <li>
+                  Espontaniedad.
                </li>
-               <li style="padding: 5px 0;">
-                  Aprender sobre tecnologia.
+               <li>
+                  Tecnología.
                </li>
-               <li style="padding: 5px 0;">
-                  Ver videos y peliculas.
+               <li>
+                  YouTube
                </li>
             </ul>
          </section>
 <!--filler-->
-         <div style="padding:20px 0 50px; display:block;">
+         <div class="filler">
 
          </div>
 
